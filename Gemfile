@@ -30,6 +30,10 @@ gem 'bootstrap-sass', '3.3.7'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
+# Fixes the problem concerning bundle exec rails generate migration CreateContacts
+gem 'thor', '0.19.1'
+
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
