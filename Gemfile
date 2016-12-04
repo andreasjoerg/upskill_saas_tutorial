@@ -36,6 +36,12 @@ gem 'hirb', '0.7.3'
 # Use Devise for user authentication
 gem 'devise', '4.2.0'
 
+# Use Stripe for payment processing
+gem 'stripe', '1.48.0'
+
+# Use Figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 # Fixes the problem concerning bundle exec rails generate migration CreateContacts
 gem 'thor', '0.19.1'
 
