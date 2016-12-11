@@ -42,6 +42,9 @@ gem 'stripe', '1.48.0'
 # Use Figaro for ENV variables
 gem 'figaro', '1.1.1'
 
+# Use Paperclip for image upload
+gem 'paperclip', '4.3.6'
+
 # Fixes the problem concerning bundle exec rails generate migration CreateContacts
 gem 'thor', '0.19.1'
 
